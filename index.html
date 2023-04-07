@@ -221,7 +221,7 @@
 							<!-- --------------------------------------------------------------------------------------------- -->	
 
 							<article id="mdp1">
-								<h1>Lycée</h1>
+								<h1 class="major">Lycée</h1>
 								<form>
 									<label for="password">Mot de passe :</label>
 									<input type="password" id="password" name="password">
@@ -230,7 +230,7 @@
 								<script>
 									function checkPasswordLycée() {
 										var password = document.getElementById("password").value;
-										if (password == "Rebecca140702") {
+										if (password == "") {
 											window.location.href = "#ly";
 										} else {
 											alert("Mot de passe incorrect");
@@ -240,13 +240,13 @@
 							</article>
 							
 							<article id="ly">
-								<h1>Lycée</h1>
+								<h1 class="major">Lycée</h1>
 							</article>
 							
 							<!-- --------------------------------------------------------------------------------------------- -->	
 							
 							<article id="mdp2">
-								<h1>BTS</h1>
+								<h1 class="major">BTS</h1>
 								<form>
 									<label for="password">Mot de passe :</label>
 									<input type="password" id="password" name="password">
@@ -255,7 +255,7 @@
 								<script>
 									function checkPasswordBTS() {
 										var password = document.getElementById("password").value;
-										if (password == "Rebecca140702") {
+										if (password == "") {
 											window.location.href = "#BTS";
 										} else {
 											alert("Mot de passe incorrect");
@@ -265,12 +265,46 @@
 							</article>
 							
 							<article id="BTS">
-								<h1>BTS</h1>
+								<h1 class="major">BTS</h1> <br> <br>
+
+								<h2 class="major">Liens</h2>
 								<h3><a href="https://www.atrium-sud.fr/connexion/login?service=https%3A%2F%2Fwww.atrium-sud.fr%2Fc%2Fportal%2Flogin%3Fredirect%3D%252Fgroup%252Flpo-jean-perrin-133951%26refererPlid%3D379198%26p_l_id%3D12998617">Atrium sud</a></h3> <br> 
 								<h3><a href="https://www.atrium-sud.fr/connexion/login?service=https:%2F%2F0130053M.index-education.net%2Fpronote%2Feleve.html">Pronote</a></h3>  <br> 
 								<h3><a href="https://chamilo.ac-aix-marseille.fr/0130053M/index.php?checkLoginCas=1">Chamilo</a></h3> <br> 
+								<h3><a href="https://www.atrium-sud.fr/group/lpo-jean-perrin-133951/wims">Wims</a></h3> <br> <br> <br>
+
+								<h2 class="major">Cours</h2>
+								<h3><a href="#exo">Exo</a></h3>
+								<h3><a href="#projet">projet</a></h3>
 							</article>
 							
+							<article id="exo">
+								<h1 class="major">Exo</h1> <br> 
+								<h2 class="major"></h2>
+
+							</article>
+							
+							<article id="projet">
+								<h1 class="major">projet</h1>
+								<h3><a href="#irrigation">projet irrigation</a></h3>
+
+							</article>
+							<article id="irrigation">
+								<h1 class="major">projet irrigation</h1>
+								<h3><a href="doc\Dossier eleves.pdf" download="projet_irrigation.pdf">dossier élève</a></h3>
+								<h3><a href="#composants">composants</a></h3>
+							</article>
+							<article id="composants">
+								<h1 class="major">composants</h1>
+								<h3><a href="doc\ARDUINO_V2.pdf" download="projet_irrigation.pdf">ARDUINO_V2</a></h3> <br>
+								<h3><a href="doc\P-JWD-171-10-datasheet.pdf" download="P-JWD-171-10-datasheet">P-JWD-171-10-datasheet</a></h3> <br>
+								<h3><a href="doc\C_Arduino_irrigation_RS_JCS.xls" download="C_Arduino_irrigation_RS_JCS">RS_JCS</a></h3> <br>
+								<h3><a href="doc\GOtronic_JCS_irrigation.xls" download="GOtronic_JCS_irrigation"></a>JCS_irrigation</h3> <br>
+								<h3><a href="doc\Nomenclature Carte Arduino UNO R3 genere par proteus8.xls" download="Carte Arduino UNO R3 genere par proteus8">Carte Arduino UNO R3</a></h3> <br>
+								<h3><a href="" download="doc\"></a></h3> <br>
+								<h3><a href="" download="doc\"></a></h3> <br>
+								<h3><a href="" download="doc\"></a></h3> <br>
+
 
 					</div>
 
