@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Cailloux's web site</title>
@@ -59,9 +54,23 @@
 								<li><a href="#Github">Github</a></li>
 								<li><a href="#youtube">youtube</a></li>
 								<li><a href="#contact">Contact</a></li>
+								<li><a href="#qr">QR code</a></li>
 								<li><a href="#ressource">ressource</a></li>
 
 							</ul>
+						</nav>
+						<div class="content">
+							<div class="inner">
+								<p><h3>
+									Cours
+								</h3></p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#mdp1">Lycée</a></li>
+								<li><a href="#mdp2">BTS</a></li>
+						 	</ul>
 						</nav>
 					</header>
 
@@ -109,11 +118,24 @@
 
 							<!-- --------------------------------------------------------------------------------------------- -->	
 
-							<!-- discord -->
+							<!-- ressource -->
 							<article id="ressource">
 								<h1>Ressource</h1>
 								<h3>
 									
+								</h3>
+
+									
+							</article>
+
+							<!-- --------------------------------------------------------------------------------------------- -->	
+
+							<!-- qr -->
+							<article id="qr">
+								<h1>QR code</h1>
+								<h3>
+									<img src="Logo\Untitled.png" width="350px">
+
 								</h3>
 
 									
@@ -135,7 +157,7 @@
 
 							<!-- --------------------------------------------------------------------------------------------- -->	
 
-						<!-- Work -->
+						<!-- Github -->
 							<article id="Github">
 								<h1 class="major">Projet info</h1>
 								<a href="https://github.com/Cailloux7789">
@@ -149,13 +171,7 @@
 									<li><a href="https://github.com/Cailloux7789/Cailloux-s-bot">Bot discord</a></li>
 								<p>
 								<p>
-									<li><a href="https://github.com/Cailloux7789/BTS">BTS</a></li>
-								<p>
-								<p>
 									<li><a href="https://github.com/Cailloux7789/Exo-code-axou">Exo code axou</a></li>
-								<p>
-								<p>
-									<li><a href="https://github.com/Cailloux7789/Lycee">Programme Lycée lycée</a></li>
 								<p>
 							</article>
 
@@ -188,7 +204,7 @@
 
 							<!-- --------------------------------------------------------------------------------------------- -->	
 
-						<!-- Elements -->
+						<!-- mail -->
 							<article id="elements">
 								<h2 class="major">Email</h2>
 
@@ -201,6 +217,61 @@
 								<h3 class="major">Professionel :</h3>
 								<h4>matteocayol6@gmail.com</h4>
 							</article>
+
+							<!-- --------------------------------------------------------------------------------------------- -->	
+
+							<article id="mdp1">
+								<h1>Lycée</h1>
+								<form>
+									<label for="password">Mot de passe :</label>
+									<input type="password" id="password" name="password">
+									<button type="button" onclick="checkPasswordLycée()">Valider</button>
+								</form>
+								<script>
+									function checkPasswordLycée() {
+										var password = document.getElementById("password").value;
+										if (password == "Rebecca140702") {
+											window.location.href = "#ly";
+										} else {
+											alert("Mot de passe incorrect");
+										}
+									}
+								</script>
+							</article>
+							
+							<article id="ly">
+								<h1>Lycée</h1>
+							</article>
+							
+							<!-- --------------------------------------------------------------------------------------------- -->	
+							
+							<article id="mdp2">
+								<h1>BTS</h1>
+								<form>
+									<label for="password">Mot de passe :</label>
+									<input type="password" id="password" name="password">
+									<button type="button" onclick="checkPasswordBTS()">Valider</button>
+								</form>
+								<script>
+									function checkPasswordBTS() {
+										var password = document.getElementById("password").value;
+										if (password == "Rebecca140702") {
+											window.location.href = "#BTS";
+										} else {
+											alert("Mot de passe incorrect");
+										}
+									}
+								</script>
+							</article>
+							
+							<article id="BTS">
+								<h1>BTS</h1>
+								<h3><a href="https://www.atrium-sud.fr/connexion/login?service=https%3A%2F%2Fwww.atrium-sud.fr%2Fc%2Fportal%2Flogin%3Fredirect%3D%252Fgroup%252Flpo-jean-perrin-133951%26refererPlid%3D379198%26p_l_id%3D12998617">Atrium sud</a></h3> <br> 
+								<h3><a href="https://www.atrium-sud.fr/connexion/login?service=https:%2F%2F0130053M.index-education.net%2Fpronote%2Feleve.html">Pronote</a></h3>  <br> 
+								<h3><a href="https://chamilo.ac-aix-marseille.fr/0130053M/index.php?checkLoginCas=1">Chamilo</a></h3> <br> 
+							</article>
+							
+
 					</div>
 
 				<!-- Footer -->
