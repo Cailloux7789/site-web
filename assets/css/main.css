@@ -1658,3 +1658,10 @@ input, select, textarea {
 			z-index: -1;
 			object-fit: cover;
 		  }
+		  
+		  .video-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 80vh;
+		}
